@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">card</string>
+    <string name="ahmed_hassan">Ahmed hassan</string>
+    <string name="engineer">Engineer</string>
+    <string name="uk">UK</string>
+    <string name="_3_hr">3 hr</string>
+    <string name="russian">Russian</string>
+    <string name="_5_days_ago">5 Days ago</string>
+</resources>

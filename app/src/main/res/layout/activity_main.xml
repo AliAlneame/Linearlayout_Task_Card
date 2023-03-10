@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:layout_weight="0"
+        android:background="@drawable/rounded_rect"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_16"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_12"
+                android:textSize="@dimen/textsize_16"
+                android:text="@string/ahmed_hassan"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textSize="12sp"
+                android:text="@string/engineer"
+                android:textColor="@color/color_Eng"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textSize="@dimen/textsize_13"
+                android:text="@string/uk"
+                android:drawableStart="@drawable/baseline_location_on_24"
+
+                android:textColor="@color/color_uk"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textSize="@dimen/textsize_12"
+                android:textColor="#000000"
+                android:drawableEnd="@drawable/baseline_star_rate_24"
+                android:text="(150 Reviews)  4.5" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@drawable/rounded2"
+                android:layout_margin="@dimen/margin_8"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="2dp"
+                android:textColor="#fff"
+                android:text="@string/_3_hr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_8"
+                android:textSize="@dimen/textsize_12"
+                android:layout_gravity="end"
+                android:textColor="@color/color_Eng"
+                android:text="@string/russian" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_8"
+                android:layout_marginTop="@dimen/margin_8"
+                android:layout_gravity="end"
+                android:textSize="12sp"
+                android:textColor="@color/color_uk"
+                android:text="@string/_5_days_ago" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
